@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="min-h-screen pt-24 pb-16 flex items-center">
+    <section className="min-h-screen pt-20 pb-1 flex items-center">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fadeIn">
@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fadeIn delay-200">
             <Button onClick={scrollToContact} size="lg" className="group">
               Get in Touch
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              <ArrowRight className="ml-1 h-1 w-2 transition-transform group-hover:translate-x-1" />
             </Button>
             <Button size="lg" variant="outline" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
               View My Work

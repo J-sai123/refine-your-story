@@ -7,7 +7,7 @@ const AboutSection: React.FC = () => {
   const skills = [
     "React", "TypeScript", "Node.js", "JavaScript", 
     "HTML/CSS", "Tailwind CSS", "Express", "MongoDB",
-    "PostgreSQL", "Next.js", "RESTful APIs", "Git"
+   "Next.js", "Git"
   ];
 
   return (
@@ -25,9 +25,10 @@ const AboutSection: React.FC = () => {
                   I'm a developer passionate about creating meaningful digital experiences
                 </h2>
                 <p className="text-muted-foreground mb-6">
-                  With over 5 years of experience in web development, I've worked on various projects
-                  ranging from small business websites to complex enterprise applications. 
-                  I specialize in building responsive, accessible, and performant web applications.
+                 Aspiring Software Engineer with a strong foundation in object-oriented programming, data structures, and full-stack development.
+                  Experienced in building web applications using React and Node.js and implementing deep learning models using Python and TensorFlow.
+                   Passionate about solving real-world problems through clean, efficient code and continuously learning modern technologies.
+                    Currently focused on mastering Java backend development and building scalable, secure software solutions..
                 </p>
                 <div className="flex flex-wrap gap-2 mb-8">
                   {skills.map((skill) => (

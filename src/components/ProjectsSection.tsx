@@ -3,25 +3,82 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import { GalleryHorizontal } from 'lucide-react';
 
+import { Badge } from "@/components/ui/badge"
+
+
+
+interface Skill {
+  name: string;
+  level: "Advanced" | "Intermediate" | "Beginner";
+  category: string;
+}
+
+const ProjectSection = () => {
+  const skills = [
+    { name: "React", level: "Advanced", category: "Frontend" },
+    { name: "TypeScript", level: "Advanced", category: "Languages" },
+    { name: "Node.js", level: "Intermediate", category: "Backend" },
+    { name: "Tailwind CSS", level: "Advanced", category: "Frontend" },
+    { name: "PostgreSQL", level: "Intermediate", category: "Database" },
+    { name: "Express", level: "Intermediate", category: "Backend" },
+    { name: "GraphQL", level: "Intermediate", category: "API" },
+    { name: "MongoDB", level: "Intermediate", category: "Database" },
+    { name: "Next.js", level: "Advanced", category: "Frontend" },
+    { name: "Redux", level: "Advanced", category: "State Management" },
+    { name: "Docker", level: "Beginner", category: "DevOps" },
+    { name: "Jest", level: "Intermediate", category: "Testing" }
+  ];
+
+  return (
+    <section className="py-16 bg-white border-t border-b border-gray-100">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-12">My Skills</h2>
+        
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+          {skills.map((skill: Skill) => (
+            <div 
+              key={skill.name} 
+              className="bg-gradient-to-br from-slate-50 to-slate-100 p-4 rounded-lg shadow-sm border border-gray-200 transition-all hover:shadow-md"
+            >
+              <div className="flex flex-col items-start">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{skill.name}</h3>
+                <div className="flex flex-wrap gap-2 mt-1">
+                  <Badge variant="outline" className="bg-white">
+                    {skill.category}
+                  </Badge>
+                  <Badge 
+                    variant={
+                      skill.level === "Advanced" ? "default" : 
+                      skill.level === "Intermediate" ? "secondary" : "outline"
+                    }
+                  >
+                    {skill.level}
+                  </Badge>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 const ProjectsSection: React.FC = () => {
   const projects = [
     {
-      title: "E-commerce Dashboard",
-      description: "A comprehensive admin dashboard for online store owners with analytics, inventory management, and order processing.",
-      imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      tags: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-      demoLink: "#",
-      codeLink: "#"
+      title: "Zerodha clone",
+      description: "Developed a Zerodha clone using React and Node.js to simulate stock trading functionalities with real-time data and user authentication.",
+      imageUrl: "https://algodelta.com/blog/wp-content/uploads/2025/01/1683270116246.png",
+      tags: ["React",  "Tailwind CSS", "Node.js","Mongodb"],
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management platform with real-time updates, task assignments, and progress tracking.",
-      imageUrl: "https://images.unsplash.com/photo-1481487196290-c152efe083f5",
-      tags: ["React", "Firebase", "Material UI", "Redux"],
-      demoLink: "#",
-      codeLink: "#"
+      title: "CIFAR-10 Image classification using ResNet50",
+      description: "Built an accurate image classification model on the CIFAR-10 dataset using ResNet50, leveraging deep learning for robust object recognition.",
+      imageUrl: "https://i.ytimg.com/vi/B-1qwKvJI64/maxresdefault.jpg",
+      tags: ["Python", "Keras", "TensorFlow ", "NumPy & Pandas"],
     },
-    {
+   /*{
       title: "Health & Fitness Tracker",
       description: "Mobile-responsive application for tracking workouts, nutrition, and progress with customizable goals.",
       imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
@@ -29,6 +86,7 @@ const ProjectsSection: React.FC = () => {
       demoLink: "#",
       codeLink: "#"
     },
+    
     {
       title: "Real Estate Marketplace",
       description: "Property listing platform with advanced search, filtering, and user authentication for buyers and sellers.",
@@ -37,7 +95,9 @@ const ProjectsSection: React.FC = () => {
       demoLink: "#",
       codeLink: "#"
     }
+      */
   ];
+  
 
   return (
     <section id="projects" className="py-16 md:py-24">

@@ -6,6 +6,7 @@ import AboutSection from '@/components/AboutSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import Skills from '@/components/Skills';
 
 const Index: React.FC = () => {
   return (
@@ -13,7 +14,9 @@ const Index: React.FC = () => {
       <Header />
       <main>
         <HeroSection />
-        <AboutSection />
+      
+        <AboutSection />  
+        <Skills/>
         <ProjectsSection />
         <ContactSection />
       </main>
