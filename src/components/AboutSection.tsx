@@ -45,12 +45,30 @@ const AboutSection: React.FC = () => {
                     <h3 className="text-xl font-semibold">Education</h3>
                   </div>
                   
-                  <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <div className="flex items-center justify-between mb-2">
-                      <h4 className="font-semibold">Bachelor of Science in Computer Science</h4>
-                      <Badge variant="secondary">2014 - 2018</Badge>
+                  <div className="space-y-4">
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <div className="flex items-center justify-between mb-2">
+                        <h4 className="font-semibold">Bachelor of Science in Computer Science</h4>
+                        <Badge variant="secondary">2023 - 2026</Badge>
+                      </div>
+                      <h5 className="text-muted-foreground">Vardhaman College of Engineering</h5>
                     </div>
-                    <h5 className="text-muted-foreground">University of Technology</h5>
+                    
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <div className="flex items-center justify-between mb-2">
+                        <h4 className="font-semibold">Diploma</h4>
+                        <Badge variant="secondary">2020 - 2023</Badge>
+                      </div>
+                      <h5 className="text-muted-foreground">Teegala Ram Reddy College of Technology</h5>
+                    </div>
+                    
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <div className="flex items-center justify-between mb-2">
+                        <h4 className="font-semibold">SSC</h4>
+                        <Badge variant="secondary">2019 - 2020</Badge>
+                      </div>
+                      <h5 className="text-muted-foreground">Good Faith High School</h5>
+                    </div>
                   </div>
                 </div>
               </div>
