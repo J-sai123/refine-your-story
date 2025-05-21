@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
-import { Briefcase, Code, User } from 'lucide-react';
+import { Code, User } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
   const skills = [
@@ -39,43 +39,6 @@ const AboutSection: React.FC = () => {
             
             <div className="md:w-3/5">
               <div className="space-y-12">
-                <div>
-                  <div className="flex items-center gap-2 mb-4">
-                    <Briefcase className="h-5 w-5 text-slate-600" />
-                    <h3 className="text-xl font-semibold">Work Experience</h3>
-                  </div>
-                  
-                  <div className="space-y-8">
-                    <div className="bg-white p-6 rounded-lg shadow-sm">
-                      <div className="flex items-center justify-between mb-2">
-                        <h4 className="font-semibold">Senior Frontend Developer</h4>
-                        <Badge variant="secondary">2021 - Present</Badge>
-                      </div>
-                      <h5 className="text-muted-foreground mb-2">TechVision Inc.</h5>
-                      <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
-                        <li>Led frontend development team on enterprise SaaS platform</li>
-                        <li>Implemented modern React architecture with TypeScript</li>
-                        <li>Reduced page load times by 45% through optimizations</li>
-                        <li>Mentored junior developers and conducted code reviews</li>
-                      </ul>
-                    </div>
-                    
-                    <div className="bg-white p-6 rounded-lg shadow-sm">
-                      <div className="flex items-center justify-between mb-2">
-                        <h4 className="font-semibold">Full Stack Developer</h4>
-                        <Badge variant="secondary">2018 - 2021</Badge>
-                      </div>
-                      <h5 className="text-muted-foreground mb-2">WebSolutions Agency</h5>
-                      <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
-                        <li>Built responsive websites and web applications for clients</li>
-                        <li>Developed RESTful APIs using Node.js and Express</li>
-                        <li>Collaborated with designers to implement UI/UX designs</li>
-                        <li>Maintained and improved existing client applications</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                
                 <div>
                   <div className="flex items-center gap-2 mb-4">
                     <Code className="h-5 w-5 text-slate-600" />
