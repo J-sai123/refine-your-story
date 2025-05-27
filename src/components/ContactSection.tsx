@@ -58,12 +58,12 @@ const ContactSection: React.FC = () => {
                   <div>
                     <h4 className="font-medium mb-2">Email</h4>
                     <a href="mailto:contact@alexmorgan.dev" className="text-muted-foreground hover:text-primary">
-                      contact@alexmorgan.dev
+                      sairakshith5683@gmail.com
                     </a>
                   </div>
                   <div>
                     <h4 className="font-medium mb-2">Location</h4>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Hyderabad,India</p>
                   </div>
                 </div>
                 
