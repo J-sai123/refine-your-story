@@ -12,19 +12,17 @@ interface Internship {
 const InternshipSection = () => {
   const internships: Internship[] = [
     {
-      company: "Tech Solutions Inc.",
-      position: "Software Development Intern",
-      duration: "June 2024 - August 2024",
+      company: "NIELIT Virtual Academys.",
+      position: "Online Internship Program in Devops",
+      duration: "may 2024 - july 2024",
       location: "Remote",
       description: [
-        "Developed responsive web applications using React.js and Node.js",
-        "Collaborated with senior developers on full-stack projects",
-        "Implemented RESTful APIs and integrated with MongoDB database",
-        "Participated in code reviews and agile development processes"
+        "Learned CI/CD pipelines, containerization with Docker & Kubernetese.",
+        "Learned infrastructure automation using Terraform and Ansib",
       ],
-      technologies: ["React.js", "Node.js", "MongoDB", "JavaScript", "Git"]
+      technologies: ["Docker"]
     },
-    {
+   /* {
       company: "Digital Innovations Ltd.",
       position: "Frontend Developer Intern",
       duration: "January 2024 - March 2024",
@@ -36,7 +34,7 @@ const InternshipSection = () => {
         "Assisted in maintaining and updating existing web applications"
       ],
       technologies: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Git"]
-    }
+    }*/
   ];
 
   return (
