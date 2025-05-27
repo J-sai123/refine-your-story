@@ -7,12 +7,12 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <h3 className="font-semibold text-lg">Alex Morgan</h3>
-            <p className="text-gray-400 text-sm mt-1">Full-Stack Developer</p>
+            <h3 className="font-semibold text-lg">J Sai Rakshith</h3>
+            <p className="text-gray-400 text-sm mt-1"></p>
           </div>
           
           <div className="text-sm text-gray-400">
-            © {new Date().getFullYear()} Alex Morgan. All rights reserved.
+            © {new Date().getFullYear()} J Sai Rakshith. All rights reserved.
           </div>
         </div>
       </div>
