@@ -32,9 +32,7 @@ const AboutSection: React.FC = () => {
                     Currently focused on mastering Java backend development and building scalable, secure software solutions..
                 </p>
                 <div className="flex flex-wrap gap-2 mb-8">
-                  {skills.map((skill) => (
-                    <Badge key={skill} variant="outline" className="bg-white">{skill}</Badge>
-                  ))}
+                  
                 </div>
               </div>
             </div>
