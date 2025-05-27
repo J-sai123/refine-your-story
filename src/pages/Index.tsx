@@ -7,6 +7,8 @@ import ProjectsSection from '@/components/ProjectsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import Skills from '@/components/Skills';
+import Internship from '@/components/Internship';
+
 
 const Index: React.FC = () => {
   return (
@@ -18,6 +20,7 @@ const Index: React.FC = () => {
         <AboutSection />  
         <Skills/>
         <ProjectsSection />
+        <Internship />
         <ContactSection />
       </main>
       <Footer />
