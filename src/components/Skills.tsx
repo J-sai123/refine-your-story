@@ -9,13 +9,23 @@ interface Skill {
 
 const ProjectSection = () => {
   const skills = [
-    { name: "React", level: "Beginner", category: "Frontend" },
-    { name: "TypeScript", level: "Begineer", category: "Languages" },
+    { name: "C/C++", level: "Intermediate", category: "Languages" },
+    { name: "Python", level: "Advanced", category: "Languages" },
+    { name: "JavaScript", level: "Intermediate", category: "Languages" },
+    { name: "HTML", level: "Advanced", category: "Frontend" },
+    { name: "CSS", level: "Advanced", category: "Frontend" },
+    { name: "React.js", level: "Intermediate", category: "Frontend" },
     { name: "Node.js", level: "Intermediate", category: "Backend" },
-    { name: "Tailwind CSS", level: "Beginner", category: "Frontend" },
-    { name: "Express", level: "Intermediate", category: "Backend" },
-    { name: "MongoDB", level: "Beginner", category: "Database" },
-    { name: "Docker", level: "Beginner", category: "DevOps" },
+    { name: "MongoDB", level: "Intermediate", category: "Database" },
+    { name: "MySQL", level: "Intermediate", category: "Database" },
+    { name: "Git", level: "Intermediate", category: "Tools" },
+    { name: "GitHub", level: "Intermediate", category: "Tools" },
+    { name: "VS Code", level: "Advanced", category: "Tools" },
+    { name: "Data Structures & Algorithms", level: "Intermediate", category: "Computer Science" },
+    { name: "Operating Systems", level: "Intermediate", category: "Computer Science" },
+    { name: "Object Oriented Programming", level: "Advanced", category: "Computer Science" },
+    { name: "Database Management System", level: "Intermediate", category: "Computer Science" },
+    { name: "Software Engineering", level: "Intermediate", category: "Computer Science" },
   ]
 
   return (
