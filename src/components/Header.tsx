@@ -29,7 +29,7 @@ const Header: React.FC = () => {
       )}
     >
       <div className="container mx-auto flex items-center justify-between">
-        <div className="text-xl font-semibold">Alex Morgan</div>
+        <div className="text-xl font-semibold">J Sai Rakshith</div>
         <nav className="hidden md:flex items-center space-x-8">
           <button 
             onClick={() => scrollToSection('about')} 

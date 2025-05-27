@@ -4,11 +4,12 @@ import { Badge } from '@/components/ui/badge';
 import { Code, User } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
-  const skills = [
+ /* const skills = [
     "React", "TypeScript", "Node.js", "JavaScript", 
     "HTML/CSS", "Tailwind CSS", "Express", "MongoDB",
    "Next.js", "Git"
   ];
+  */
 
   return (
     <section id="about" className="py-16 md:py-24 bg-slate-50">

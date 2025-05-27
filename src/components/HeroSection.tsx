@@ -16,9 +16,9 @@ const HeroSection: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fadeIn">
-            I'm Alex Morgan.<br />
+            J Sai Rakshith.<br />
             <span className="text-3xl md:text-4xl lg:text-5xl opacity-85">
-              Full-Stack Developer
+              Software Engineer
             </span>
           </h1>
           
