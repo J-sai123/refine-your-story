@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fadeIn">
             J Sai Rakshith.<br />
             <span className="text-3xl md:text-4xl lg:text-5xl opacity-85">
-              Software Engineer
+              
             </span>
           </h1>
           
