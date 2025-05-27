@@ -9,19 +9,14 @@ interface Skill {
 
 const ProjectSection = () => {
   const skills = [
-    { name: "React", level: "Advanced", category: "Frontend" },
-    { name: "TypeScript", level: "Advanced", category: "Languages" },
+    { name: "React", level: "Beginner", category: "Frontend" },
+    { name: "TypeScript", level: "Begineer", category: "Languages" },
     { name: "Node.js", level: "Intermediate", category: "Backend" },
-    { name: "Tailwind CSS", level: "Advanced", category: "Frontend" },
-    { name: "PostgreSQL", level: "Intermediate", category: "Database" },
+    { name: "Tailwind CSS", level: "Beginner", category: "Frontend" },
     { name: "Express", level: "Intermediate", category: "Backend" },
-    { name: "GraphQL", level: "Intermediate", category: "API" },
-    { name: "MongoDB", level: "Intermediate", category: "Database" },
-    { name: "Next.js", level: "Advanced", category: "Frontend" },
-    { name: "Redux", level: "Advanced", category: "State Management" },
+    { name: "MongoDB", level: "Beginner", category: "Database" },
     { name: "Docker", level: "Beginner", category: "DevOps" },
-    { name: "Jest", level: "Intermediate", category: "Testing" }
-  ];
+  ]
 
   return (
     <section className="py-16 bg-white border-t border-b border-gray-100">
