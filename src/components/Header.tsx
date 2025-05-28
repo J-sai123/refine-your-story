@@ -50,11 +50,12 @@ const Header: React.FC = () => {
             Projects
           </button>
           <button 
-            onClick={() => scrollToSection('projects')} 
-            className="text-sm font-medium hover:text-primary/80 transition-colors"
-          >
-         Internships
-          </button>
+  onClick={() => scrollToSection('Internship Experience')} 
+  className="text-sm font-medium hover:text-primary/80 transition-colors"
+>
+  Internship Experience
+</button>
+
           <button 
             onClick={() => scrollToSection('contact')} 
             className="text-sm font-medium hover:text-primary/80 transition-colors"
